@@ -112,3 +112,21 @@
 
     }
 }
+
+@media (max-width:600px) {
+    .contain {
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        width: 85%;
+    }
+
+    .contain p {
+        padding-right: 10px;
+    }
+
+    body {
+        margin: 0px;
+
+    }
+}
