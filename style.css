@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    font-size: 15px;
+    color: white;
+}
+
+
+
+.contain {
+    width: 70%;
+    margin: 100px;
+    position: absolute;
+    top: 5%;
+    left: 7%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.contain div {
+    word-spacing: 12px;
+    font-weight: 300;
+
+    padding: 30px;
+}
+
+
+.contain h3 {
+    font-family: "Big Shoulders Display";
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.contain p {
+    padding-top: 10px;
+    padding-bottom: 50px;
+    font-family: "Lexend Deca";
+    font-size: 15px;
+    padding-right: 70px;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suv {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.learn {
+    padding: 15px 30px 15px 30px;
+    font-family: "Lexend Deca";
+    font-size: 15px;
+    background-color: transparent;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    border: 1px solid white;
+}
+
+.learn:hover {
+    cursor: pointer;
+
+}
+
+.icon {
+    padding-top: 10px;
+}
